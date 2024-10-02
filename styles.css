@@ -1,0 +1,28 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+:root {
+  --menu-color: green;
+  --header-color: white;
+  --dark-section-background: rgb(112, 85, 67);
+}
+header {
+  color: var(--header-color);
+  background-image: url(./images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: var(--menu-color);
+  color: white;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
